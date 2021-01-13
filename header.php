@@ -41,12 +41,12 @@
     <div class="mobile-nav">
       <!-- Mobile menu -->
       <div class="hamburger">
-        <div id="navIcon">
+        <button id="navIcon" aria-label="toggle menu">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
         <div class="mobileNav">
           <?php wp_nav_menu( array(
             'theme_location' => 'primary',
