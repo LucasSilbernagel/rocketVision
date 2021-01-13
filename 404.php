@@ -2,9 +2,11 @@
 
 <div class="wrapper">
 
-  <h1>Not Found</h1>
-  <p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
-  <?php get_search_form(); ?>
+  <div class="notFoundContainer">
+    <h1>Not Found</h1>
+    <p>Apologies, but the page you requested could not be found. Please return to the homepage:</p>
+    <a href="https://lucassilbernagel.com/rocket-vision/"><i class="fas fa-arrow-left"></i> Home</a>
+  </div>
 
 </div> 
 

@@ -6,12 +6,6 @@ $(document).ready(function () {
       $('.mobileNav').toggleClass('openNav');
     });
   
-    // // When link is selected in mobile menu, close the menu
-    $( '.mobileNav a' ).on("click", function(){
-      $('.mobileNav').toggleClass('openNav');
-      $('#navIcon').toggleClass('open');
-    });
-  
     // // If screen is tapped outside the mobile menu, close the menu
     $(document).on("click", function(e){
       if( 

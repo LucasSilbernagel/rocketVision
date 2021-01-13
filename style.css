@@ -966,6 +966,25 @@ footer .menu {
 
 /* Footer styles end */
 
+/* 404 page */
+.notFoundContainer {
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.notFoundContainer p,
+.notFoundContainer a {
+   font-size: 2rem;
+   max-width: 600px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.notFoundContainer a {
+   border-bottom: 3px solid #FBF8FA;
+   padding: 5px;
+}
+
 /* Media Queries */
 
 @media(max-width: 1220px) {
