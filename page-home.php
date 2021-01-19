@@ -60,7 +60,7 @@
         <div class="homeText">
           <?php if($employee->post_title): ?>
             <h3><?php the_field('section_title'); ?></h3>
-            <a href="<?php echo $employee->guid; ?>"><h2><?php echo $employee->post_title; ?></h2></a>
+            <h2><?php echo $employee->post_title; ?></h2>
           <?php endif; ?>
           <p><?php echo wp_trim_words($employee->post_content, 50); ?></p>
         </div>
