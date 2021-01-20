@@ -492,6 +492,7 @@ h1 {
 .personContainer {
    text-align: center;
    min-width: 200px;
+   margin: unset;
 }
 
 .personName {
@@ -1089,6 +1090,27 @@ footer .menu {
    .teammateBio,
    .entryContent {
       padding: 10px;
+   }
+}
+
+@media(max-width: 630px) {
+   .groupContainer {
+      display: flex;
+      grid-template-columns: unset;
+      gap: unset;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .personContainer {
+      margin-bottom: 20px;
+   }
+}
+
+@media(max-width: 560px) {
+   .leaderContainer {
+      flex-direction: column;
+      align-items: center;
    }
 }
 
