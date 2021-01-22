@@ -492,6 +492,7 @@ h1 {
 .personContainer {
    text-align: center;
    min-width: 200px;
+   margin: unset;
 }
 
 .personName {
@@ -1012,6 +1013,15 @@ footer .menu {
    }
 }
 
+@media(max-width: 830px) {
+   .articleContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 380px);
+      gap: 50px 50px;
+      padding: 0;
+   }
+}
+
 @media(max-width: 800px) {
    .tabSection {
       margin-top: 200px;
@@ -1092,6 +1102,27 @@ footer .menu {
    }
 }
 
+@media(max-width: 630px) {
+   .groupContainer {
+      display: flex;
+      grid-template-columns: unset;
+      gap: unset;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .personContainer {
+      margin-bottom: 20px;
+   }
+}
+
+@media(max-width: 560px) {
+   .leaderContainer {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
 @media(max-width: 540px) {
    .main-nav {
       display: none;
@@ -1112,7 +1143,8 @@ footer .menu {
    }
 
    .articleContainer {
-      grid-template-columns: repeat(auto-fill, 300px);
+      display: flex;
+      flex-direction: column;
    }
 
    article p:nth-of-type(3) {
