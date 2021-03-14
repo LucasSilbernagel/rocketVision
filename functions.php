@@ -272,14 +272,14 @@ function is_blog () {
 }
 
 /* get_post_parent() - Returns the current posts parent, if current post if top level, returns itself */
-function get_post_parent($post) {
-	if ($post->post_parent) {
-		return $post->post_parent;
-	}
-	else {
-		return $post->ID;
-	}
-}
+// function get_post_parent($post) {
+// 	if ($post->post_parent) {
+// 		return $post->post_parent;
+// 	}
+// 	else {
+// 		return $post->ID;
+// 	}
+// }
 
 if( function_exists('acf_add_options_page') ) {
 	
